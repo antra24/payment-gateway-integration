@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.donation-page {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(224, 205, 205, 0.377), rgba(243, 224, 224, 0.336)), url("../dlogo.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    padding-bottom: 30px;
+}
+
+h1{
+
+    color: rgb(218, 118, 5);
+    padding: 34px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 45px;
+}
+.discription{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: rgb(160, 39, 2);
+    font-size: medium;
+    font-weight:700;
+    font-family: cursive;
+}
+
+.form>* {
+    width: 100%;
+}
+
+input {
+    height: 2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+span {
+    color: rgba(252, 162, 17);
+}
+
+@media only screen and (max-width: 600px) {
+    .form {
+        width: 80%;
+    }
+}
