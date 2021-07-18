@@ -79,14 +79,14 @@ main {
 .first-heading {
     font-size: 3em;
     animation: antra 4s linear infinite;
-    animation-delay: 3s;
+    animation-delay: 2s;
 }
 @keyframes antra {
     0%{
        transform: translateX(0);
        opacity: 0;
     }
-  55%{
+  65%{
     transform: translateX(0);
     opacity: 1;
   } 
